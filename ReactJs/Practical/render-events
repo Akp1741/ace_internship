@@ -1,3 +1,5 @@
+1.Timer that shows countdown
+
 import React, { useState, useEffect } from 'react';
 const Timer: React.FC = () => {
   const [totalSeconds, setTotalSeconds] = useState<number>(0);
@@ -35,7 +37,7 @@ const [hrs = 0, mins = 0, secs = 0] = inputTime.split(':').map(Number);
 };
 export default Timer;
 
-//togle Switch to implement state change when clicked
+2.togle Switch to implement state change when clicked
 
 import React, { useState } from 'react';
 
@@ -50,7 +52,7 @@ export default function StatefulButton() {
   );
 }
 
-//Search Filter
+3. Search Filter
 import React, { useState } from 'react';
 
 const App: React.FC = () => {
@@ -83,9 +85,9 @@ const App: React.FC = () => {
 };
 export default App;
 
-//to do list add and delete feature.
+4.to do list add and delete feature.
 
-//import React, { useState } from 'react';
+import React, { useState } from 'react';
 interface Item {
   id: number;
   name: string;
